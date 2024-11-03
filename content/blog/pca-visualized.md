@@ -5,8 +5,6 @@ dateString: Aug 2020
 draft: false
 tags: ["ML", "AI", "Python", "PCA", "Data Compression"]
 weight: 107
-cover:
-    image: "/blog/pca-visualized/cover.jpg"
 ---
 # Introduction
 
