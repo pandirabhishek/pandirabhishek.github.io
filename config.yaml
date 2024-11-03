@@ -62,11 +62,6 @@ params:
   # List View
   hideDescriptionInList: false
 
-  # cover image for posts
-  cover:
-    hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
-
   social:
     - name: "email"
       url: "mailto:pandirabhishek2001@gmail.com"
