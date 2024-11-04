@@ -2,52 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Experiences on Abhishek Pandir</title>
-    <link>//localhost:1313/experience/</link>
+    <link>http://localhost:1313/experience/</link>
     <description>Recent content in Experiences on Abhishek Pandir</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en-us</language>
-    <atom:link href="//localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/experience/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Software Developer II (Backend Infrastructure)</title>
-      <link>//localhost:1313/experience/clio/</link>
+      <title>Data Scientist</title>
+      <link>http://localhost:1313/experience/sprinklr-ds/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/clio/</guid>
-      <description>Clio | Toronto, Canada</description>
+      <guid>http://localhost:1313/experience/sprinklr-ds/</guid>
+      <description>Sprinklr | India</description>
     </item>
     <item>
-      <title>Software Engineer (LLM &amp; Backend Infrastructure)</title>
-      <link>//localhost:1313/experience/16bit/</link>
+      <title>Founding Member</title>
+      <link>http://localhost:1313/experience/genvr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/16bit/</guid>
-      <description>16Bit | Toronto, Canada</description>
+      <guid>http://localhost:1313/experience/genvr/</guid>
+      <description>GenVR Labs | India</description>
     </item>
     <item>
-      <title>Backend Engineer</title>
-      <link>//localhost:1313/experience/buyerassist/</link>
+      <title>Summer Intern</title>
+      <link>http://localhost:1313/experience/jsw/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/buyerassist/</guid>
-      <description>BuyerAssist (India)</description>
+      <guid>http://localhost:1313/experience/jsw/</guid>
+      <description>JSW | India</description>
     </item>
     <item>
-      <title>Remote Research Intern</title>
-      <link>//localhost:1313/experience/tumunich/</link>
+      <title>Research Associate</title>
+      <link>http://localhost:1313/experience/iit-madras/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/tumunich/</guid>
-      <description>Technical University of Munich (Germany)</description>
+      <guid>http://localhost:1313/experience/iit-madras/</guid>
+      <description>IIT Roorkee | India</description>
     </item>
     <item>
-      <title>Software Intern</title>
-      <link>//localhost:1313/experience/origin-health/</link>
+      <title>Machine Learning Researcher</title>
+      <link>http://localhost:1313/experience/go-data/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/origin-health/</guid>
-      <description>OriginHealth (Singapore)</description>
-    </item>
-    <item>
-      <title>Computer Vision Intern</title>
-      <link>//localhost:1313/experience/iit-madras/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/experience/iit-madras/</guid>
-      <description>IIT Madras (India)</description>
+      <guid>http://localhost:1313/experience/go-data/</guid>
+      <description>Go Data Insights | India</description>
     </item>
   </channel>
 </rss>
