@@ -86,8 +86,17 @@ params:
 outputs:
   home:
     - HTML
-    - RSS
     - JSON
+  section:
+    - HTML
+    - JSON
+  page:
+    - HTML
+    - JSON
+  taxonomy:
+    - HTML
+  term:
+    - HTML
 
 # allow HTML in MD
 markup:
