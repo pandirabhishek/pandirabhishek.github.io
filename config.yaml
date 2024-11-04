@@ -51,8 +51,8 @@ params:
     title: "Abhishek Pandir"
     subtitle: I am an experienced ML engineer with experience in building complete end-to-end ML solutions from the research phase to final delivery. I have also worked on building websites and mobile apps.
     imageUrl: "home/casual.jpeg"
-    imageWidth: 220
-    imageHeight: 240
+    imageWidth: 200
+    imageHeight: 220
     buttons:
       - name: Resume
         url: ""
@@ -87,7 +87,7 @@ outputs:
   home:
     - HTML
     - JSON
-    
+
 
 # allow HTML in MD
 markup:
