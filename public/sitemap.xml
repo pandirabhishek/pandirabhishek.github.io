@@ -2,144 +2,194 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/blog/pca-visualized/</loc>
+    <loc>http://localhost:1313/blog/pca-visualized/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/obsidian-publish-github-action/</loc>
+    <loc>http://localhost:1313/projects/todo-list-app/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/kindle-to-notion/</loc>
+    <loc>http://localhost:1313/experience/sprinklr-ds/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/automated-image-captioning/</loc>
+    <loc>http://localhost:1313/experience/genvr/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/todo-list-app/</loc>
+    <loc>http://localhost:1313/experience/jsw/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/face-landmarks-detection/</loc>
+    <loc>http://localhost:1313/experience/iit-madras/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/gaze-tracking-goggles/</loc>
+    <loc>http://localhost:1313/experience/go-data/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/openquad/</loc>
+    <loc>http://localhost:1313/tags/agile-methodologies/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/search-and-reconnaissance-robot/</loc>
+    <loc>http://localhost:1313/tags/ai/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/sebart-pro/</loc>
+    <loc>http://localhost:1313/tags/algorithms/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/clio/</loc>
+    <loc>http://localhost:1313/tags/api-integration/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/16bit/</loc>
+    <loc>http://localhost:1313/tags/apis/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/buyerassist/</loc>
+    <loc>http://localhost:1313/tags/argocd/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/tumunich/</loc>
+    <loc>http://localhost:1313/tags/autocad/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/origin-health/</loc>
+    <loc>http://localhost:1313/tags/automation/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/iit-madras/</loc>
+    <loc>http://localhost:1313/tags/aws/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>http://localhost:1313/tags/backend-development/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/ai/</loc>
+    <loc>http://localhost:1313/blog/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/arduino/</loc>
+    <loc>http://localhost:1313/tags/bootstrap/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/argocd/</loc>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/automation/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/aws/</loc>
+    <loc>http://localhost:1313/tags/ci/cd/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/bash/</loc>
+    <loc>http://localhost:1313/tags/cloud-computing/</loc>
   </url><url>
-    <loc>//localhost:1313/blog/</loc>
+    <loc>http://localhost:1313/tags/crm/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/css/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/tags/data-analysis/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/ci/cd/</loc>
+    <loc>http://localhost:1313/tags/data-annotation/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/cnn/</loc>
+    <loc>http://localhost:1313/tags/data-compression/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/computer-vision/</loc>
+    <loc>http://localhost:1313/tags/data-engineering/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/crnn/</loc>
+    <loc>http://localhost:1313/tags/data-science/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/css/</loc>
+    <loc>http://localhost:1313/tags/data-structures/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/data-compression/</loc>
+    <loc>http://localhost:1313/tags/data-visualization/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/dl/</loc>
+    <loc>http://localhost:1313/tags/database-management/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/docker/</loc>
+    <loc>http://localhost:1313/tags/deep-learning/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/drone/</loc>
+    <loc>http://localhost:1313/tags/devops/</loc>
   </url><url>
-    <loc>//localhost:1313/experience/</loc>
+    <loc>http://localhost:1313/tags/docker/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/express/</loc>
+    <loc>http://localhost:1313/tags/environmental-science/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/frontend-development/</loc>
+    <loc>http://localhost:1313/tags/erp/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/github-action/</loc>
+    <loc>http://localhost:1313/experience/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/github-actions/</loc>
+    <loc>http://localhost:1313/tags/express/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/grafana/</loc>
+    <loc>http://localhost:1313/tags/frontend-development/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/helm/</loc>
+    <loc>http://localhost:1313/tags/fusion-360/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/html/</loc>
+    <loc>http://localhost:1313/tags/gcp/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/infrastructure/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/javascript/</loc>
+    <loc>http://localhost:1313/tags/gpt-3.5/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/kubernetes/</loc>
+    <loc>http://localhost:1313/tags/grafana/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/langchain/</loc>
+    <loc>http://localhost:1313/tags/helm/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/linux/</loc>
+    <loc>http://localhost:1313/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/llm/</loc>
+    <loc>http://localhost:1313/tags/html/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/lstm/</loc>
+    <loc>http://localhost:1313/tags/infrastructure/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/mkdocs/</loc>
+    <loc>http://localhost:1313/tags/javascript/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/ml/</loc>
+    <loc>http://localhost:1313/tags/jenkins/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/mongodb/</loc>
+    <loc>http://localhost:1313/tags/kafka/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/node.js/</loc>
+    <loc>http://localhost:1313/tags/kubernetes/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/nodejs/</loc>
+    <loc>http://localhost:1313/tags/l/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/oauth2.0/</loc>
+    <loc>http://localhost:1313/tags/langchain/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/pca/</loc>
+    <loc>http://localhost:1313/tags/linux/</loc>
   </url><url>
-    <loc>//localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/tags/llm/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/python/</loc>
+    <loc>http://localhost:1313/tags/llms/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/pytorch/</loc>
+    <loc>http://localhost:1313/tags/machine-learning/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/raspberry-pi/</loc>
+    <loc>http://localhost:1313/tags/matplotlib/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/react/</loc>
+    <loc>http://localhost:1313/tags/ml/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/regex/</loc>
+    <loc>http://localhost:1313/tags/mlops/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/robotics/</loc>
+    <loc>http://localhost:1313/tags/mongodb/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/ruby/</loc>
+    <loc>http://localhost:1313/tags/nlp/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/ruby-on-rails/</loc>
+    <loc>http://localhost:1313/tags/nodejs/</loc>
   </url><url>
-    <loc>//localhost:1313/search/</loc>
+    <loc>http://localhost:1313/tags/numpy/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/tags/oauth2.0/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/typescript/</loc>
+    <loc>http://localhost:1313/tags/oop/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/web-development/</loc>
+    <loc>http://localhost:1313/tags/pandas/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pca/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/power-automate/</loc>
+  </url><url>
+    <loc>http://localhost:1313/projects/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/python/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pytorc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/pytorch/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/react/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/retri/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/retrival/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/robotics/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ruby/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ruby-on-rails/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/scikit-learn/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/sentiment-analysis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/sql/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/statistical-analysis/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/ten/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/tensorflow/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/typescript/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/video-processing/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/web-development/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/webots/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/yolo/</loc>
   </url>
 </urlset>

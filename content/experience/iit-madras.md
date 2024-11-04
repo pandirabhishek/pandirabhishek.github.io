@@ -1,22 +1,16 @@
 ---
-title: "Computer Vision Intern"
-description: "IIT Madras (India)"
-dateString: May 2019 - July 2019
+title: "Research Associate"
+description: "IIT Roorkee | India"
+dateString: "March 2022 - December 2022"
 draft: false
-tags: []
+tags: ["Machine Learning", "Data Analysis", "Environmental Science", "Python", "APIs", "Statistical Analysis", "NumPy", "Pandas"]
 showToc: false
 weight: 306
---- 
-### 🔗 [GitHub](https://github.com/arkalim/Tensorflow/tree/master/VLocNet)
+---
 
-## Description
-**Guide:** **Prof. Dr. Pratyush Kumar** (Assistant Professor, Dept. of Computer Science, IIT Madras)
-
-- Implemented a Convolutional Neural Network (CNN) for 6-DoF Global Pose Regression and Odometry Estimation
-- Developed a deep learning model in TensorFlow to estimate the camera pose from consecutive monocular images
-- The model demonstrated superior performance compared to traditional feature-based visual localization algorithms, especially in texture-less regions
-- The neural network was later utilized for robot localization in GPS-denied environments
-
-![](/experience/iit-madras/img1.jpeg)
-![](/experience/iit-madras/img2.jpeg)
-![](/experience/iit-madras/img3.jpeg)
+### Description
+**Guide:** **Prof. Dr.  Prof. R. Balasubramanian** (Professor and Head,, Dept. of Computer Science, IIT Roorkee)
+- Collaborated in a team to build the controller for a prototype of a Biped Robot designed for agricultural applications.
+- Gained proficiency in Webots and G-mapping tools for simultaneous localization and mapping (SLAM) for path planning.
+- Collected and labeled data for tomato localization using YOLO and Pascal VOC formats.
+- Implemented state-of-the-art research papers for the detection and localization of tomatoes and peduncles, fine-tuning YOLOv5 and achieving a mean Average Precision (mAP) of 73.1.
