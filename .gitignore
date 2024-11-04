@@ -1,0 +1,8 @@
+# Other ignore patterns
+node_modules/
+*.log
+
+# Ignore public and resources directories
+/public/*
+/resources/*
+/themes/*

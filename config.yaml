@@ -2,16 +2,12 @@ baseURL: "https://pandirabhishek.github.io/"
 languageCode: en-us
 title: Abhishek Pandir
 theme: PaperMod
-
+mainsections : ['posts', 'projects']
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
-    - identifier: blog
-      name: Blog
-      url: /blog
+    - identifier: Posts
+      name: Posts
+      url: /posts
       weight: 20
     - identifier: projects
       name: Projects
@@ -41,13 +37,14 @@ params:
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   hideMeta: false
-
   # for enchanced SEO
   env: production
-
+  homeInfoParams:
+    Title: Hi there I am Abhishek Pandir
+    Content: an experienced ML engineer with experience in building complete end-to-end ML solutions from the research phase to final delivery. I have also worked on building websites and mobile apps.
   # Home Page
   profileMode:
-    enabled: true
+    enabled: false
     title: "Abhishek Pandir"
     subtitle: I am an experienced ML engineer with experience in building complete end-to-end ML solutions from the research phase to final delivery. I have also worked on building websites and mobile apps.
     imageUrl: "home/casual.jpeg"
@@ -62,15 +59,13 @@ params:
   # List View
   hideDescriptionInList: false
 
-  social:
+  socialIcons:
     - name: "email"
       url: "mailto:pandirabhishek2001@gmail.com"
     - name: "linkedin"
-      url: "https://www.linkedin.com/in/abdurrahmankalim"
+      url: "https://www.linkedin.com/in/abhishekpandir/"
     - name: "github"
-      url: "https://github.com/arkalim"
-    - name: "youtube"
-      url: "https://www.youtube.com/c/AbdurRahmanKalim"
+      url: "https://github.com/pandirabhishek"
 
   # text search
   fuseOpts:
