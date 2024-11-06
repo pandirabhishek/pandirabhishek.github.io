@@ -1,13 +1,11 @@
 ---
 title: "Part 1 Granite 3.0:  The Data Powering Granite 3.0"
-description: "Data compression using Principal Component Analysis (PCA)"
+description: "Unpacking Granite 3.0’s Data Strategy: The Power of Curated, Public, and Synthetic Datasets in AI Model Development"
 dateString: Oct 2024
 draft: false
 tags: ["ML", "LLM", "data", "LLAMA3", "Instruction", "Finetuning"]
 weight: 107
 ---
-
-# Unpacking Granite 3.0’s Data Strategy: The Power of Curated, Public, and Synthetic Datasets in AI Model Development
 
 As large language models (LLMs) advance, the quality and diversity of their training data remain central to their performance. With Granite 3.0, developers have pushed the envelope by crafting a data ecosystem that includes curated web data, public datasets, and extensive synthetic data to meet a broad range of needs. In this post, we’ll explore Granite 3.0's unique data strategy, its filtering mechanisms, and how these choices affect the model's capabilities.
 
