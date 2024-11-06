@@ -10,8 +10,17 @@ weight: 303
 
 ### Description
 
-- Managed end-to-end training, testing, and deployment of sentiment analysis and moderation services, including emotion detection and spam filtering.
-- Fine-tuned large language models (LLMs) such as LLaMA3-8B, Phi3, LLaMA7B, and Mistral7B for task-specific applications in Generalized Classification and text analysis using techniques like LoRA, QLoRa, and SFT.
-- Developed and implemented prompting techniques (CoT, BoT, and RAG) to address the instruction adherence problem in LLMs.
-- Employed optimization techniques (pruning, quantization, efficient decoding, prompt compression) to reduce memory usage by 60-70% and achieved 2x inference speed.
-- Created domain and task-oriented datasets for fine-tuning, enhancing instruction adherence and minimizing hallucinations in models.
+- **Oversaw Full Lifecycle of Sentiment Analysis and Moderation Services:**  
+  Directed the end-to-end training, testing, and deployment processes for sentiment analysis and content moderation tools. Implemented advanced modules for emotion detection and spam filtering, ensuring robust performance and reliable moderation in varied environments.
+
+- **Fine-Tuned Advanced Language Models (LLMs) for Specialized Applications:**  
+  Optimized large language models (LLMs) such as LLaMA3-8B, Phi3, LLaMA7B, and Mistral7B for task-specific roles in Generalized Classification and text analysis. Employed techniques like LoRA, QLoRA, and Supervised Fine-Tuning (SFT) to enhance model adaptability and precision in handling nuanced text processing tasks.
+
+- **Innovated Prompting Techniques for Improved Instruction Adherence:**  
+  Developed and integrated sophisticated prompting strategies—Chain of Thought (CoT), Buffer of Thought (BoT), and Retrieval-Augmented Generation (RAG)—to tackle instruction-following challenges in LLMs. These advancements resulted in models that better align with user requirements and maintain instructional consistency.
+
+- **Implemented Optimization Techniques for Memory Efficiency and Speed:**  
+  Applied advanced optimization methods, including pruning, quantization, efficient decoding, and prompt compression, reducing memory usage by 60-70% and doubling (2X) inference speed. This work significantly enhanced model performance in memory-constrained environments.
+
+- **Curated Specialized Datasets for Improved Model Accuracy and Reliability:**  
+  Developed domain-specific and task-oriented datasets for targeted model fine-tuning, enhancing instruction adherence and reducing hallucinations. These datasets enabled LLMs to perform more accurately within defined parameters, boosting reliability in real-world applications.
