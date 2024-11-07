@@ -89,3 +89,11 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+
+
+
+
+googleAnalytics: G-N7N69N17K1
+analytics:
+    google:
+        SiteVerificationTag: "G-N7N69N17K1"
