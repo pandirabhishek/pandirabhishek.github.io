@@ -10,17 +10,20 @@ weight: 303
 
 ### Description
 
-- **Oversaw Full Lifecycle of Sentiment Analysis and Moderation Services:**  
-  Directed the end-to-end training, testing, and deployment processes for sentiment analysis and content moderation tools. Implemented advanced modules for emotion detection and spam filtering, ensuring robust performance and reliable moderation in varied environments.
+- **Led Full Lifecycle of Sentiment Analysis and Moderation Systems:**  
+  Managed the end-to-end process of training, testing, and deploying sentiment analysis and moderation services, incorporating advanced features like emotion detection and spam filtering. Enhanced moderation reliability and user experience through robust, scalable models.
 
-- **Fine-Tuned Advanced Language Models (LLMs) for Specialized Applications:**  
-  Optimized large language models (LLMs) such as LLaMA3-8B, Phi3, LLaMA7B, and Mistral7B for task-specific roles in Generalized Classification and text analysis. Employed techniques like LoRA, QLoRA, and Supervised Fine-Tuning (SFT) to enhance model adaptability and precision in handling nuanced text processing tasks.
+- **Fine-Tuned Advanced Language Models (LLMs) for Specialized Text Applications:**  
+  Adapted large language models (LLMs) such as LLaMA3-8B, Phi3, LLaMA7B, and Mistral7B to specific tasks in Generalized Classification and text analysis. Utilized fine-tuning techniques like LoRA, QLoRA, and Supervised Fine-Tuning (SFT) to boost model accuracy and relevance in targeted applications.
 
-- **Innovated Prompting Techniques for Improved Instruction Adherence:**  
-  Developed and integrated sophisticated prompting strategies—Chain of Thought (CoT), Buffer of Thought (BoT), and Retrieval-Augmented Generation (RAG)—to tackle instruction-following challenges in LLMs. These advancements resulted in models that better align with user requirements and maintain instructional consistency.
+- **Enhanced Instruction Adherence with Advanced Prompting Techniques:**  
+  Developed and applied prompting strategies—Chain of Thought (CoT), Branch of Thought (BoT), and Retrieval-Augmented Generation (RAG)—to address instruction-following challenges in LLMs. These innovations improved model consistency and responsiveness to user instructions.
 
-- **Implemented Optimization Techniques for Memory Efficiency and Speed:**  
-  Applied advanced optimization methods, including pruning, quantization, efficient decoding, and prompt compression, reducing memory usage by 60-70% and doubling (2X) inference speed. This work significantly enhanced model performance in memory-constrained environments.
+- **Optimized Model Efficiency with Memory and Speed Improvements:**  
+  Implemented optimization techniques such as pruning, quantization, efficient decoding, and prompt compression, reducing memory requirements by 60-70% and achieving a twofold increase in inference speed. This resulted in significant efficiency gains for high-demand applications.
 
-- **Curated Specialized Datasets for Improved Model Accuracy and Reliability:**  
-  Developed domain-specific and task-oriented datasets for targeted model fine-tuning, enhancing instruction adherence and reducing hallucinations. These datasets enabled LLMs to perform more accurately within defined parameters, boosting reliability in real-world applications.
+- **Curated Task-Oriented Datasets for Enhanced Model Precision:**  
+  Developed domain-specific datasets to fine-tune models, increasing instruction adherence and reducing hallucinations. This dataset curation improved model reliability and alignment with intended outcomes in real-world applications.
+
+- **Developed a Dashboard Summarizer for Quick Data Insights:**  
+  Designed a summarization widget with charts and drill-down capabilities to provide quick insights into displayed data. Leveraged RAG and prompt engineering to ensure efficient and contextually accurate summaries, helping users access key insights seamlessly.
