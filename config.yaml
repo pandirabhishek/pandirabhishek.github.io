@@ -40,13 +40,13 @@ params:
   # for enchanced SEO
   env: production
   homeInfoParams:
-    Title: Hi there I am Abhishek Pandir
-    Content: an experienced ML engineer with experience in building complete end-to-end ML solutions from the research phase to final delivery. I have also worked on building websites and mobile apps.
+    Title: Hi there..  its me Abhishek Pandir
+    Content: A seasoned ML engineer with expertise in building end-to-end ML solutions—from the research phase through to deployment—plus experience developing websites and mobile apps. I’m currently working with Large Language Models (LLMs), pushing the boundaries of what AI can achieve. With a BTech from IIT Madras, I have a solid foundation in engineering principles and a talent for transforming complex ideas into impactful solutions.
   # Home Page
   profileMode:
     enabled: false
     title: "Abhishek Pandir"
-    subtitle: I am an experienced ML engineer with experience in building complete end-to-end ML solutions from the research phase to final delivery. I have also worked on building websites and mobile apps.
+    subtitle: I’m a seasoned ML engineer with expertise in building end-to-end ML solutions—from the research phase through to deployment—plus experience developing websites and mobile apps. I’m currently working with Large Language Models (LLMs), pushing the boundaries of what AI can achieve. With a BTech from IIT Madras, I have a solid foundation in engineering principles and a talent for transforming complex ideas into impactful solutions.
     imageUrl: "home/casual.jpeg"
     imageWidth: 200
     imageHeight: 220
