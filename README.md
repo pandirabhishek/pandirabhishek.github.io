@@ -1,0 +1,2 @@
+## Hi there.. its me Abhishek Pandir
+A seasoned ML engineer with expertise in building end-to-end ML solutions—from the research phase through to deployment—plus experience developing websites and mobile apps. I’m currently working with Large Language Models (LLMs), pushing the boundaries of what AI can achieve. With a BTech from IIT Madras, I have a solid foundation in engineering principles and a talent for transforming complex ideas into impactful solutions.
