@@ -104,7 +104,3 @@ By aligning tokenization strategies with the unique characteristics of Indian la
 4. Research on Grapheme Pair Encoding (GPE) and its effectiveness in handling Indic scripts. [Source](https://arxiv.org/abs/2407.12481)  
 5. Pretraining Data and Tokenizer for Indic LLM arXiv. [Link](https://arxiv.org/abs/2407.12481)  
 6. Optimizing Tokenization for Faster and Efficient LLM Processing. [link] (https://medium.com/%40harishpillai1994/optimizing-tokenization-for-faster-and-efficient-llm-processing-bdc87b8f9fe3)
-2. Study on Hindi tokenization demonstrating the impact of preserving vowel markers on NLP tasks. [Source](https://arxiv.org/abs/2407.12481)  
-
-
-5. Analysis of the impact of tokenization on computational efficiency and model inference times. [Source](https://arxiv.org/abs/2407.12481)  
