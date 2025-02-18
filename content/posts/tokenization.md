@@ -3,7 +3,7 @@ title: "Impact of Tokenization on the Performance of LLMs for Indian Languages"
 description: "A look into the the tokenzation methods on low resource indian languages"
 dateString: Feb 2025
 draft: false
-tags: ["ML", "LLM", "data", "tokenization", "pre-training", "indic-LLMs"]
+tags: ["ML", "LLM", "data", "tokenization", "pre-training", "indic-LLMs", "LLAMA3", "GPT", "SUTRA"]
 weight: 107
 ---
 
@@ -14,10 +14,12 @@ Large language models (LLMs) have transformed natural language processing (NLP) 
 ## Introduction
 
 Tokenization—the process of breaking down text into smaller units (tokens)—is the first step in transforming human language into a format that LLMs can understand. While many mainstream tokenizers were originally designed with English in mind, their direct application to Indian languages often leads to inefficiencies. Inefficient tokenization may inflate token counts, distort semantic relationships, and ultimately affect downstream performance in tasks such as sentiment analysis, translation, or named entity recognition.
-
 ## Background
-
 Modern LLMs commonly employ subword tokenization algorithms such as Byte Pair Encoding (BPE), WordPiece, or Unigram models. These methods help overcome the limitations of word-level tokenization—especially the handling of out-of-vocabulary words—by breaking down text into manageable subword units. However, these methods were primarily developed for Latin-script languages and might not directly capture the intricacies of Indic scripts. Recent studies have shown that specialized tokenizers like the SUTRA tokenizer outperform traditional approaches on a wide range of Indian languages by efficiently handling diverse scripts and linguistic patterns [1].
+
+**For Example the Tokenization of a sentence and its hindi version by GPT4 Tokenizer**
+![Tokenization of "The major organ of the circulatory system is the heart, which pumps the blood." Sentence in English Version](image.png)
+![Tokenization of "सर्कुलेटरी सिस्टम का मुख्य अंग हृदय है जो रक्त को पंप करता है" Sentence in Hindi Version](image-1.png)
 
 ## Challenges in Tokenizing Indian Languages
 
@@ -25,10 +27,16 @@ Modern LLMs commonly employ subword tokenization algorithms such as Byte Pair En
 Indian languages use multiple scripts (e.g., Devanagari for Hindi, Tamil script for Tamil, etc.), each with its own set of diacritics and conjunct characters. For instance, the handling of vowel *matras* in Hindi is critical for preserving meaning. Some tokenizers inadvertently strip or split these diacritics, leading to semantic loss [2].
 
 ### Morphological Richness
-Indic languages are often morphologically rich, meaning that a single word can have several inflected forms. Over-segmentation (splitting words into too many subunits) can dilute the semantic content, while under-segmentation might fail to capture essential linguistic nuances.
+Indic languages are often morphologically rich, meaning that a single word can have several inflected forms. Over-segmentation (splitting words into too many subunits) can dilute the semantic content, while under-segmentation might fail to capture essential linguistic nuances. For Example,
+
+In Hindi consider the word "खेलते" (khelte), meaning "playing" (as in "they play"). Morphologically, it combines the root "खेल" (khel – "to play") with the suffix "ते" (-te), indicating present tense and plural subject agreement.
+**Over-segmentation:** Splitting it into "खे" + "लते" (khe + late) breaks the root and suffix into meaningless fragments, losing the core semantic link to "play."
+**Under-segmentation:** Treating "खेलते" as a single unit ignores critical details like tense and subject plurality, limiting linguistic analysis.
+
+Striking the right segmentation ("खेल" + "ते") preserves both meaning and grammar
 
 ### Low-Resource Considerations
-Many Indian languages lack extensive digital corpora compared to high-resource languages like English. This scarcity makes it difficult to train tokenizers that can generalize well across different dialects and contexts.
+Many Indian languages lack extensive digital corpora compared to high-resource languages like English. This scarcity makes it difficult to train tokenizers that can generalize well across different dialects and contexts, llama3 tokenizers 
 
 ### Inconsistent Orthography
 Variations in spelling and the use of multiple scripts for the same language (e.g., Punjabi can be written in both Gurmukhi and Shahmukhi) further complicate tokenization.
@@ -37,7 +45,7 @@ Variations in spelling and the use of multiple scripts for the same language (e.
 
 ### Traditional Algorithms
 
-Subword tokenizers like BPE, WordPiece, and Unigram have been widely adopted due to their ability to manage vocabulary size and handle out-of-vocabulary issues. However, when applied directly to Indic languages, these methods sometimes result in overly fragmented tokens that impair semantic understanding. For example, a study on Hindi tokenizers demonstrated that standard BPE can lead to token splits that remove critical vowel markers, reducing downstream task performance [2].
+Subword tokenizers like BPE, WordPiece, and Unigram have been widely adopted due to their ability to manage vocabulary size and handle out-of-vocabulary issues. However, when applied directly to Indic languages, these methods sometimes result in overly fragmented tokens that impair semantic understanding. For example, a study on Hindi tokenizers demonstrated that standard BPE can lead to token splits that remove critical vowel markers, reducing performance on downstream tasks such as Sentiment Analysis and Named-Entity Recognition [2].
 
 ### Specialized and Custom Tokenizers
 
@@ -66,10 +74,14 @@ Efficient tokenization reduces the number of tokens generated per text segment, 
 
 LLMs are typically constrained by a fixed context window size. When inefficient tokenization causes excessive token counts, more of the available window is consumed, potentially truncating important contextual information. Improved tokenization ensures that models can leverage their full context window, which enhances performance on tasks requiring understanding of longer texts.
 
+The tokenization length ratio comparsion for various tokenizers computed over 2000 sentences from the [FLORES-200](https://github.com/facebookresearch/flores) parallel corpus.
+![alt text](image-2.png)
+credit https://aleksandarpetrov.github.io/tokenization-fairness/
+
 ## Recent Research and Case Studies
 
 - **Comprehensive Evaluations:**  
-  A comprehensive evaluation across 22 Indian languages revealed that specialized tokenizers, such as SUTRA, consistently outperform generic models by reducing the normalized sequence length (NSL) and better preserving semantic information [1].
+  A comprehensive evaluation across 22 Indian languages revealed that specialized tokenizers, such as SUTRA, consistently outperform generic models by reducing the normalized sequence length (NSL) and better preserving semantic information. In SUTRA the authors have a multilingual large language model architecture that is trained by decoupling concept learning from language learning. The input is processed through a multilingual concept encoder, followed by the concept model and finally through a multilingual concept decoder to generate the output response, the key differentiator of tokenization here is that they trained sentence piece with appropriate ratio of languages supported , which resulted that Text generated with our tokenizer lead to 80% to 200% reduction in overall tokens consumed across languages. Combining the capability of both multilingual encoder-decoder and tokenizer they have gained consistency in MMLU benchmarks across languages [1,7].
 
 - **Focused Studies on Hindi:**  
   Focused research on Hindi demonstrated that effective tokenization—preserving critical vowel markers and reducing over-segmentation—correlates strongly with improvements in downstream tasks like sentiment analysis and named entity recognition [2].
@@ -99,7 +111,7 @@ By aligning tokenization strategies with the unique characteristics of Indian la
 
 ## References  
 1. [Evaluating Tokenizer Performance of Large Language Models Across Official Indian Languages.](https://arxiv.org/html/2411.12240v2)
-2. [Studying the Effect of Hindi Tokenizer Performance on Downstream Tasks.](https://aclanthology.org/2025.indonlp-1.5.pdf)
+2. [Studying the Effect of Hindi Tokenizer Performance on Downstream Tasks](https://aclanthology.org/2025.indonlp-1.5.pdf)
 3. [Evaluation of tokenization methods for 22 Indian languages, highlighting SUTRA tokenizer’s performance](https://arxiv.org/abs/2407.12481)  
 4. [Research on Grapheme Pair Encoding (GPE) and its effectiveness in handling Indic scripts.](https://arxiv.org/abs/2407.12481)  
 5. [Pretraining Data and Tokenizer for Indic LLM arXiv](https://arxiv.org/abs/2407.12481)  
