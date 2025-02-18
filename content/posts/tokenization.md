@@ -18,8 +18,8 @@ Tokenization—the process of breaking down text into smaller units (tokens)—i
 Modern LLMs commonly employ subword tokenization algorithms such as Byte Pair Encoding (BPE), WordPiece, or Unigram models. These methods help overcome the limitations of word-level tokenization—especially the handling of out-of-vocabulary words—by breaking down text into manageable subword units. However, these methods were primarily developed for Latin-script languages and might not directly capture the intricacies of Indic scripts. Recent studies have shown that specialized tokenizers like the SUTRA tokenizer outperform traditional approaches on a wide range of Indian languages by efficiently handling diverse scripts and linguistic patterns [1].
 
 **For Example the Tokenization of a sentence and its hindi version by GPT4 Tokenizer**
-![Tokenization of "The major organ of the circulatory system is the heart, which pumps the blood." Sentence in English Version](image.png)
-![Tokenization of "सर्कुलेटरी सिस्टम का मुख्य अंग हृदय है जो रक्त को पंप करता है" Sentence in Hindi Version](image-1.png)
+![Tokenization of "The major organ of the circulatory system is the heart, which pumps the blood." Sentence in English Version](/blog/tokenization/image.png#center)
+![Tokenization of "सर्कुलेटरी सिस्टम का मुख्य अंग हृदय है जो रक्त को पंप करता है" Sentence in Hindi Version](/blog/tokenization/image-1.png#center)
 
 ## Challenges in Tokenizing Indian Languages
 
@@ -75,7 +75,7 @@ Efficient tokenization reduces the number of tokens generated per text segment, 
 LLMs are typically constrained by a fixed context window size. When inefficient tokenization causes excessive token counts, more of the available window is consumed, potentially truncating important contextual information. Improved tokenization ensures that models can leverage their full context window, which enhances performance on tasks requiring understanding of longer texts.
 
 The tokenization length ratio comparsion for various tokenizers computed over 2000 sentences from the [FLORES-200](https://github.com/facebookresearch/flores) parallel corpus.
-![alt text](image-2.png)
+![alt text](/blog/tokenization/image-2.png#center)
 credit https://aleksandarpetrov.github.io/tokenization-fairness/
 
 ## Recent Research and Case Studies
