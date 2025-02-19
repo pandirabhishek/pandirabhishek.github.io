@@ -107,7 +107,7 @@ credit https://aleksandarpetrov.github.io/tokenization-fairness/
 
 Tokenization is not merely a preliminary step in processing text—it is the bridge that connects human language with machine understanding. For Indian languages, characterized by rich diversity and complex scripts, effective tokenization is paramount. Specialized approaches, such as the SUTRA tokenizer and grapheme-based methods, have shown promising results by preserving semantic nuances and reducing computational overhead. As research continues to advance in this field, improved tokenization strategies will be critical to unlocking the full potential of LLMs for the many languages of India.
 
-By aligning tokenization strategies with the unique characteristics of Indian languages, researchers and practitioners can build more efficient, accurate, and culturally inclusive language models—a vital step toward truly multilingual AI.
+By aligning tokenization strategies with the unique characteristics of Indian languages,we can build more efficient, accurate, and culturally inclusive language models—a vital step toward truly multilingual AI.
 
 ## References  
 1. [Evaluating Tokenizer Performance of Large Language Models Across Official Indian Languages.](https://arxiv.org/html/2411.12240v2)
