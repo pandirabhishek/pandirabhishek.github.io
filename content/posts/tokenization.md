@@ -113,7 +113,7 @@ By aligning tokenization strategies with the unique characteristics of Indian la
 1. [Evaluating Tokenizer Performance of Large Language Models Across Official Indian Languages.](https://arxiv.org/html/2411.12240v2)
 2. [Studying the Effect of Hindi Tokenizer Performance on Downstream Tasks](https://aclanthology.org/2025.indonlp-1.5.pdf)
 3. [Evaluation of tokenization methods for 22 Indian languages, highlighting SUTRA tokenizer’s performance](https://arxiv.org/abs/2407.12481)  
-4. [Research on Grapheme Pair Encoding (GPE) and its effectiveness in handling Indic scripts.](https://arxiv.org/abs/2407.12481)  
+4. [Research on Grapheme Pair Encoding (GPE) and its effectiveness in handling Indic scripts.](https://arxiv.org/pdf/2409.11501)  
 5. [Pretraining Data and Tokenizer for Indic LLM arXiv](https://arxiv.org/abs/2407.12481)  
 6. [Optimizing Tokenization for Faster and Efficient LLM Processing](https://medium.com/%40harishpillai1994/optimizing-tokenization-for-faster-and-efficient-llm-processing-bdc87b8f9fe3)
 7. [SUTRA: SCALABLE MULTILINGUAL LANGUAGE MODEL ARCHITECTURE](https://arxiv.org/pdf/2405.06694)
