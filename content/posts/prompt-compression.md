@@ -39,7 +39,7 @@ LLMLingua-2 is very easy to use and the finetuned token classification models is
 
 *Using LLMLingua is Quite Easy* 
 Following a Snippit which can be used 
-```
+```python
 from llmlingua import PromptCompressor
 llm_lingua = PromptCompressor(
     model_name="microsoft/llmlingua-2-xlm-roberta-large-meetingbank",
