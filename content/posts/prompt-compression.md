@@ -26,7 +26,7 @@ There are two main approaches:
   - **Soft Prompt Methods:** Soft prompt methods represent the prompt in a compact, non-textual form, often using embeddings or special tokens, which the LLM can interpret. These methods typically offer higher compression ratios but may require additional training or integration. These technieus represent the prompt in a compact form, like special tokens. For instance, 500xCompressor[3] can shrink 500 tokens into one, achieving up to 480x compression, and SelfCP uses the LLM itself to create virtual tokens, compressing to 1/12th the original size.
 
 Each method has trade-offs, and the choice depends on your needs, like how much compression you need versus how easy it is to implement.
-![alt text](image.png)
+![alt text](/blog/tokenization/image.png#center)
 credit : Authors of GemFilter
 
 Current users of llm are of two types ,one who have access to llm weights  and can tweak the llm as per requirements and other are the users of closed source llms such as GPTs who are using apis for meet their llm based needs. I will be discussing few methods for both type of scenarios.
@@ -54,7 +54,7 @@ compressed_prompt = llm_lingua.compress_prompt(prompt,
 ```
 
 
-![alt text](image-1.png)
+![alt text](/blog/tokenization/image-1.png#center)
 
 *Note*: If you find your data New for prompt compression the model training technique is given in research paper itself, where new compression data could be created and a token classifier could be trained.
 
