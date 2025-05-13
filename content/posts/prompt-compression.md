@@ -1,7 +1,7 @@
 ---
 title: "Faster and Cheaper LLMs: Prompt Compression"
 description: "A look into the the Prompt compression methods for efficient llms usage"
-dateString: Feb 2025
+dateString: Apr 2025
 draft: false
 tags: ["ML", "LLM", "data", "prompt-comression", "prompting", "indic-LLMs", "LLAMA3", "GPT", "Mistral","Qwen"]
 weight: 107
