@@ -22,7 +22,7 @@ So in the light of above challanges the concept of compressing the input prompt 
 
 ## How Does It Work? 
 There are two main approaches:
-  - **Hard Prompt Methods:** These modify the text directly, like removing less important words or sentences. At the prompt development level itself few phrases words (for example stop words )could be identified and removed based on the their redundancy. Similarly un-important tokens could be removed. For example, LLMLingua[1] uses a smaller model to cut out unnecessary tokens, achieving up to 20x compression with little performance loss. And Techniques Like GemFilter[2]which uses partial llm (a part of LLM) to identify redundant tokens in the input prompt and after removing the less relavent tokens it uses the compressed prompt for further generation of output.
+  - **Hard Prompt Methods:** These modify the text directly, like removing less important words or sentences. At the prompt development level itself few phrases words (for example stop words )could be identified and removed based on the their redundancy. Similarly un-important tokens could be removed. For example, LLMLingua[1](https://arxiv.org/abs/2403.12968) uses a smaller model to cut out unnecessary tokens, achieving up to 20x compression with little performance loss. And Techniques Like GemFilter[2]() which uses partial llm (a part of LLM) to identify redundant tokens in the input prompt and after removing the less relavent tokens it uses the compressed prompt for further generation of output.
   - **Soft Prompt Methods:** Soft prompt methods represent the prompt in a compact, non-textual form, often using embeddings or special tokens, which the LLM can interpret. These methods typically offer higher compression ratios but may require additional training or integration. These technieus represent the prompt in a compact form, like special tokens. For instance, 500xCompressor[3] can shrink 500 tokens into one, achieving up to 480x compression, and SelfCP uses the LLM itself to create virtual tokens, compressing to 1/12th the original size.
 
 Each method has trade-offs, and the choice depends on your needs, like how much compression you need versus how easy it is to implement.
@@ -58,9 +58,6 @@ compressed_prompt = llm_lingua.compress_prompt(prompt,
 
 *Note*: If you find your data New for prompt compression the model training technique is given in research paper itself, where new compression data could be created and a token classifier could be trained.
 
-Here’s your content rewritten in **proper Markdown format**, including the **table**, **code block**, and structured headings for clarity and blog-readiness:
-
----
 
 ## You Have Access To Actual Model Weights
 
@@ -97,7 +94,7 @@ GemFilter operates in **two main passes**:
 
 ### Practical Implementation Example: GemFilter
 
-Here’s a simplified code snippet to demonstrate how GemFilter could be implemented using a framework like PyTorch with an open-source LLM (assuming access to model weights):
+Here’s a simple code snippet to demonstrate how GemFilter (assuming access to model weights):
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
