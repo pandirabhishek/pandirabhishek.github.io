@@ -7,7 +7,7 @@ tags: ["ML", "LLM", "data", "prompt-comression", "prompting", "indic-LLMs", "LLA
 weight: 107
 ---
 
-With this blog I have started a journey findings techniques to make llms more effcient and the first topic which i want to discuss is Prompt Compression. Prompt compression is a technique to shorten the input text (prompt) given to large language models (LLMs) while keeping the essential information intact. This helps LLMs process the prompt faster, reducing the time it takes to generate responses. Long prompts have several  challenges in natural language processing applications, such as slower inference, increased computation cost, and a negative , impact on user experience. Additionally, the context length, limit restricts model performance and application scenarios, so this creates a strong demand for reducing prompt length. 
+With this blog, I have started a journey finding techniques to make LLMs more efficient, and the first topic I want to discuss is Prompt Compression. Prompt compression is a technique to shorten the input text (prompt) given to large language models (LLMs) while keeping the essential information intact. This helps LLMs process the prompt faster, reducing the time it takes to generate responses. Long prompts have several challenges in natural language processing applications, such as slower inference, increased computation cost, and a negative impact on user experience. Additionally, the context length limit restricts model performance and application scenarios, so this creates a strong demand for reducing prompt length.
 
 ---
 ## Introduction
@@ -22,8 +22,8 @@ So in the light of above challanges the concept of compressing the input prompt 
 
 ## How Does It Work? 
 There are two main approaches:
-  - **Hard Prompt Methods:** These modify the text directly, like removing less important words or sentences. At the prompt development level itself few phrases words (for example stop words )could be identified and removed based on the their redundancy. Similarly un-important tokens could be removed. For example, LLMLingua[1](https://arxiv.org/abs/2403.12968) uses a smaller model to cut out unnecessary tokens, achieving up to 20x compression with little performance loss. And Techniques Like GemFilter[2]() which uses partial llm (a part of LLM) to identify redundant tokens in the input prompt and after removing the less relavent tokens it uses the compressed prompt for further generation of output.
-  - **Soft Prompt Methods:** Soft prompt methods represent the prompt in a compact, non-textual form, often using embeddings or special tokens, which the LLM can interpret. These methods typically offer higher compression ratios but may require additional training or integration. These technieus represent the prompt in a compact form, like special tokens. For instance, 500xCompressor[3] can shrink 500 tokens into one, achieving up to 480x compression, and SelfCP uses the LLM itself to create virtual tokens, compressing to 1/12th the original size.
+  - **Hard Prompt Methods:** These modify the text directly, like removing less important words or sentences. At the prompt development level itself few phrases words (for example stop words )could be identified and removed based on the their redundancy. Similarly un-important tokens could be removed. For example, LLMLingua[1](https://arxiv.org/abs/2403.12968) uses a smaller model to cut out unnecessary tokens, achieving up to 20x compression with little performance loss. And Techniques Like GemFilter[2](https://arxiv.org/pdf/2409.17422) which uses partial llm (a part of LLM) to identify redundant tokens in the input prompt and after removing the less relavent tokens it uses the compressed prompt for further generation of output.
+  - **Soft Prompt Methods:** Soft prompt methods represent the prompt in a compact, non-textual form, often using embeddings or special tokens, which the LLM can interpret. These methods typically offer higher compression ratios but may require additional training or integration. These techniques represent the prompt in a compact form, like special tokens. For instance, 500xCompressor[3](https://arxiv.org/abs/2408.03094) can shrink 500 tokens into one, achieving up to 480x compression, and SelfCP[4](https://arxiv.org/html/2405.17052v2) uses the LLM itself to create virtual tokens, compressing to 1/12th the original size.
 
 Each method has trade-offs, and the choice depends on your needs, like how much compression you need versus how easy it is to implement.
 ![alt text](/blog/promptcompression/image.png#center)
@@ -65,7 +65,7 @@ For users with access to the weights of open-source large language models (LLMs)
 
 ### GemFilter-Based Compression
 
-**GemFilter**[2] is particularly effective for users with access to model weights. This method employs a partial LLM (e.g., a subset of the model’s layers) to analyze the input prompt and identify redundant or less relevant tokens. By removing these tokens, GemFilter creates a compressed prompt that retains critical information. The compressed prompt is then passed to the full LLM for output generation.
+**GemFilter**[2](https://arxiv.org/pdf/2409.17422) is particularly effective for users with access to model weights. This method employs a partial LLM (e.g., a subset of the model’s layers) to analyze the input prompt and identify redundant or less relevant tokens. By removing these tokens, GemFilter creates a compressed prompt that retains critical information. The compressed prompt is then passed to the full LLM for output generation.
 
 **GemFilter** is a **training-free**, highly efficient compression method designed for users with access to LLM weights. It exploits a key insight: **LLMs often identify relevant tokens in the early layers of their transformer architecture**. This observation enables selective filtering of input tokens **before** full inference, significantly reducing memory and compute needs.
 
@@ -82,7 +82,7 @@ GemFilter operates in **two main passes**:
 2. **Inference Phase (Full Model Run)**:
 
    * The compressed sequence of selected tokens is then passed into the **entire model** for final output generation.
-   * This drastically reduces the number of tokens processed from `n` to `k` (e.g., from 128,000 to 1,000), enabling **1000× compression** in practical cases.
+   * This drastically reduces the number of tokens processed from `n` to `k` (e.g., from 128,000 to 1,000), presenting a case of **1000× compression** (althoug it may or may not be replicable for industry use cases)
 
 
 
@@ -90,11 +90,11 @@ GemFilter operates in **two main passes**:
 
 * **Needle in a Haystack**: Outperforms SnapKV and standard attention by accurately identifying key sentences in long documents.
 * **LongBench**: Achieves **comparable or superior scores** using as little as **1% of the input tokens**, particularly effective in multi-document QA and summarization tasks.
-* **Layer Robustness**: Performance remains high across a range of filter layers (13–25), offering flexibility in deployment.
+* **Layer Robustness**: Performance remains high across a range of filter layers (13-25), offering flexibility in deployment.
 
 ### Practical Implementation Example: GemFilter
 
-Here’s a simple code snippet to demonstrate how GemFilter (assuming access to model weights):
+Here’s a simple implementation of GemFilter
 
 ```python
 from transformers import AutoModelForCausalLM, AutoTokenizer
@@ -142,7 +142,7 @@ print("Compressed Prompt:", selected_token_text)
 
 ### SelfCP (Self-Compression Prompting)
 
-**SelfCP**[^4] is another powerful technique that utilizes the LLM itself to generate compact representations of the input prompt. In this method, the LLM is fine-tuned to produce *virtual tokens* that encapsulate the semantic essence of the original prompt. These virtual tokens are significantly fewer in number, often compressing prompts to **1/12th** of their original size.
+**SelfCP**[4](https://arxiv.org/html/2405.17052v2) is another powerful technique that utilizes the LLM itself to generate compact representations of the input prompt. In this method, the LLM is fine-tuned to produce *virtual tokens* that encapsulate the semantic essence of the original prompt. These virtual tokens are significantly fewer in number, often compressing prompts to **1/12th** of their original size.
 
 SelfCP requires access to model weights because it involves modifying the model’s training process to learn how to generate these compact representations. The advantage of SelfCP is its **high compression ratio** and ability to **preserve nuanced information**, making it suitable for complex tasks like summarization or question-answering. However, implementing SelfCP may require **substantial computational resources** for fine-tuning, which could be a consideration for smaller teams.
 
