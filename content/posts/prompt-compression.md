@@ -37,8 +37,7 @@ There are users who are using closed source models such as GPT, Sonnet etc where
 LLMLingua-2 employs a data distillation procedure, which involves extracting knowledge from an LLM (GPT-4) to compress texts without losing crucial information or introducing hallucinated content.A Prompt compression dataset is prepared using using GPT4 which is then used for finetuning a smaller model for the prompt compression.The authors formulate prompt compression as a token classification problem to guarantee the faithfulness of the compressed prompt to the original one, and use a Transformer encoder as the base architecture to capture all essential information for prompt compression from the full bidirectional context. This approach leads to lower latency by explicitly learning the compression objective with smaller models such as XLM-RoBERTa-large and mBERT.
 LLMLingua-2 is very easy to use and the finetuned token classification models is well generalized accross various domains and task. For example Here are its Benchmarks on the popular datasets like BBH and GSM8k
 
-*Using LLMLingua is Quite Easy* 
-Following a Snippit which can be used 
+*Using LLMLingua is Quite Easy*  
 ```python
 from llmlingua import PromptCompressor
 llm_lingua = PromptCompressor(
