@@ -166,7 +166,7 @@ The choice between hard and soft prompt methods—or between techniques like **L
 
 ---
 
-## Challenges and Future Directions
+## Challenges
 
 While prompt compression offers significant benefits, it is not without challenges:
 
@@ -174,16 +174,7 @@ While prompt compression offers significant benefits, it is not without challeng
 * **Soft prompt methods** often require extensive fine-tuning, which can be **resource-intensive**.
 * **Balancing compression ratio and performance** remains an active area of research.
 
-### What’s Next?
-
-Future advancements in prompt compression may focus on:
-
-* **Adaptive Compression**: Dynamically adjusting compression based on task or context.
-* **Cross-Model Generalization**: Developing techniques that work across different LLMs.
-* **Energy Efficiency**: Reducing the computational energy consumption of compression methods.
-
 ---
-
 ## Conclusion
 
 Prompt compression is a transformative technique for making large language models more efficient, cost-effective, and accessible. By reducing prompt length while preserving essential information, it addresses key challenges like **slow inference**, **high costs**, and **context window limitations**.
