@@ -1,9 +1,7 @@
 ---
-title: "Machine Learning Engineer"
-company: "Sirion"
-location: "India"
-date: 2024-01-01
-end_date:
+title: "Machine Learning Engineer | Sirion"
+dateString: "Sept 2025 - Present."
+draft: false
 description: "Contract AI platform engineering — async ml-context-service, RAG retrieval research, ML evaluation infrastructure, and inference optimization for vectorizer and language-detection deployments."
 tags:
   - LLM
