@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Engineer | Sirion"
-dateString: "Sept 2025 - Present."
+dateString: "September 2025 - Present"
 draft: false
 description: "Contract AI platform engineering — async ml-context-service, RAG retrieval research, ML evaluation infrastructure, and inference optimization for vectorizer and language-detection deployments."
 tags:
