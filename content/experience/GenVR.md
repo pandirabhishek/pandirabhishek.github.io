@@ -10,13 +10,13 @@ weight: 304
 
 ### Description
 
-- **Engineered a Comprehensive Video Summarization Tool:**  
-  Spearheaded the development of a sophisticated video summarization application that combines advanced frame selection, image captioning, and GPT-3.5 integration to generate concise, contextually accurate summaries. Enhanced content accessibility for users by automating the summarization of lengthy video material into engaging, easy-to-digest formats.
+- **Built an end-to-end video summarization product:**  
+  Combined frame selection, image captioning, and **GPT-3.5** to generate concise, faithful summaries of long videos for faster content consumption.
 
-- **Built a High-Performance Retrieval System for Similar Query Searches:**  
-  Designed and implemented a large-scale retrieval solution optimized for efficient query similarity searches using state-of-the-art vector search algorithms. This system improved information retrieval speed and relevance, supporting high-demand environments requiring rapid access to related content.
+- **Implemented a similarity search / retrieval layer:**  
+  Designed a vector-search based retrieval workflow for fast “similar query” discovery with improved relevance and low-latency lookups.
 
-- **Fine-Tuned Large Language Models (LLMs) for Enhanced Conversational AI:**  
-  Customized and optimized LLMs to create engaging, context-aware conversational systems. Leveraged specialized fine-tuning techniques such as full finetuining , PEFT (LORA) to improve model responsiveness, user interaction quality, and system adaptability across diverse conversational scenarios. 
+- **Fine-tuned LLMs for conversational UX:**  
+  Applied full fine-tuning and **PEFT (LoRA)** to improve instruction adherence and response quality for domain-specific assistants.
 
 

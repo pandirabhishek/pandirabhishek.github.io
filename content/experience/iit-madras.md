@@ -9,8 +9,9 @@ weight: 306
 ---
 
 ### Description
-**Guide:** **Prof. Dr.  Prof. R. Balasubramanian** (Professor and Head,, Dept. of Computer Science, IIT Roorkee)
-- Collaborated in a team to build the controller for a prototype of a Biped Robot designed for agricultural applications.
-- Gained proficiency in Webots and G-mapping tools for simultaneous localization and mapping (SLAM) for path planning.
-- Collected and labeled data for tomato localization using YOLO and Pascal VOC formats.
-- Implemented state-of-the-art research papers for the detection and localization of tomatoes and peduncles, fine-tuning YOLOv5 and achieving a mean Average Precision (mAP) of 73.1.
+**Guide:** **Prof. R. Balasubramanian** (Professor & Head, Dept. of Computer Science, IIT Roorkee)
+
+- Built components of the controller stack for a **biped robot prototype** targeted at agricultural environments.
+- Worked with **Webots** simulation and **GMapping/SLAM** tooling for localization and path planning experiments.
+- Collected and labeled tomato localization data in **Pascal VOC** format and trained object detectors in the YOLO family.
+- Reproduced and adapted research for tomato + peduncle detection; fine-tuned **YOLOv5** to **73.1 mAP** on the project dataset.

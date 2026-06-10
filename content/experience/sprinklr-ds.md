@@ -10,20 +10,20 @@ weight: 303
 
 ### Description
 
-- **Led Full Lifecycle of Sentiment Analysis and Moderation Systems:**  
-  Managed the end-to-end process of training, testing, and deploying sentiment analysis and moderation services, incorporating advanced features like emotion detection and spam filtering. Enhanced moderation reliability and user experience through robust, scalable models.
+- **Owned sentiment analysis + moderation systems end-to-end:**  
+  Trained, tested, and deployed sentiment + moderation services with emotion detection and spam filtering, improving moderation quality and reliability at scale.
 
-- **Fine-Tuned Advanced Language Models (LLMs) for Specialized Text Applications:**  
-  Adapted large language models (LLMs) such as LLaMA3-8B, Phi3, LLaMA7B, and Mistral7B to specific tasks in Generalized Classification and text analysis. Utilized fine-tuning techniques like LoRA, QLoRA, and Supervised Fine-Tuning (SFT) to boost model accuracy and relevance in targeted applications.
+- **Fine-tuned LLMs for classification and text intelligence:**  
+  Adapted **LLaMA3-8B**, **Phi-3**, **LLaMA-7B**, and **Mistral-7B** using **LoRA/QLoRA** and **SFT** to improve task accuracy and domain alignment.
 
-- **Enhanced Instruction Adherence with Advanced Prompting Techniques:**  
-  Developed and applied prompting strategies—Chain of Thought (CoT), Branch of Thought (BoT), and Retrieval-Augmented Generation (RAG)—to address instruction-following challenges in LLMs. These innovations improved model consistency and responsiveness to user instructions.
+- **Improved instruction adherence with prompting + RAG:**  
+  Applied **CoT**, **BoT**, and **RAG** patterns to reduce failure modes in instruction following and improve response consistency.
 
-- **Optimized Model Efficiency with Memory and Speed Improvements:**  
-  Implemented optimization techniques such as pruning, quantization, efficient decoding, and prompt compression, reducing memory requirements by 60-70% and achieving a twofold increase in inference speed. This resulted in significant efficiency gains for high-demand applications.
+- **Optimized inference cost and latency:**  
+  Delivered pruning/quantization/efficient decoding/prompt compression improvements, reducing memory usage by **60–70%** and improving inference speed by **~2×**.
 
-- **Curated Task-Oriented Datasets for Enhanced Model Precision:**  
-  Developed domain-specific datasets to fine-tune models, increasing instruction adherence and reducing hallucinations. This dataset curation improved model reliability and alignment with intended outcomes in real-world applications.
+- **Built task-focused datasets to reduce hallucinations:**  
+  Curated domain datasets for fine-tuning and evaluation, improving alignment and lowering hallucinations in production workflows.
 
-- **Developed a Dashboard Summarizer for Quick Data Insights:**  
-  Designed a summarization widget with charts and drill-down capabilities to provide quick insights into displayed data. Leveraged RAG and prompt engineering to ensure efficient and contextually accurate summaries, helping users access key insights seamlessly.
+- **Shipped a dashboard summarizer widget:**  
+  Built chart + drill-down summaries of on-screen data using **RAG + prompt engineering**, enabling quick, contextual insights for users.

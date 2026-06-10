@@ -33,6 +33,17 @@ tags:
 
 ## Description
 
+### Highlights
+
+- Re-architected `ml-context-service` to **FastAPI + async I/O**, improving throughput and eliminating cross-event-loop runtime failures under load.
+- Built a **multi-tenant VectorStore proxy** routing by `client_id`, enabling transparent backends (Qdrant ↔ Amazon S3 Vectors) with **zero call-site changes**.
+- Shipped **Auto-Eval**, a spec-driven evaluation platform covering **12 ML pipelines**, with regression gates, dataset tooling, and a React + FastAPI UI.
+- Led production-aligned **RAG retrieval evaluation**, improving accuracy **~70% → 81%** on a 790-question golden dataset; identified retrieval as the dominant bottleneck and shipped targeted fixes.
+- Delivered retrieval/model optimization work (dense fine-tuning, chunking benchmarks, hybrid search) plus infra sizing studies for high-volume document ingestion.
+
+<details>
+<summary><strong>Full write-up (details, metrics, stack)</strong></summary>
+
 ### Led Async Re-Architecture and Performance Engineering of ml-context-service
 
 Owned the end-to-end modernization of Sirion’s core **ML Context Service** — the production backend for contract Q&A (Talk-to-Document), AE Turbo extraction, summarization, and multi-document retrieval. Migrated the service to **FastAPI + async I/O**, redesigned HTTP and vector-database clients for safe concurrent use across **uvicorn** (API routes) and **Pulsar consumer** event loops, and introduced loop-aware primitives (`LoopBoundSemaphore`, `LoopBoundLock`, `LoopBoundHTTPClient`) to eliminate cross-loop runtime failures under load.
@@ -160,3 +171,5 @@ Hardened production contract-AI services through security, reliability, and feat
 LLM · RAG · NLP · MLOps · FastAPI · Python · Qdrant · AWS S3 Vectors · Apache Pulsar · Docker · Kubernetes · Benchmarking · PyTorch · Hugging Face · Prompt Engineering · Vector Databases · Elastic APM · Hybrid Search · BM25 · Fine-Tuning · Graph RAG · CI/CD · Async Python
 
 ---
+
+</details>

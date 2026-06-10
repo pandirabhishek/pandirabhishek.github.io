@@ -10,7 +10,7 @@ weight: 305
 
 ### Description
 
-- Built a Python script that automated the movement of data from the company’s ERP system to its CRM system, increasing the order success rate from 60% to 95% and reducing average order placement time by 60%.
-- Utilized techniques such as Linear Regression & Random Forests to find correlations between various variables affecting order success.
-- Developed a Python script to automate the process of price optimization and updates in the backend system.
+- Automated ERP → CRM data sync with a Python pipeline, increasing order success rate **60% → 95%** and reducing average order placement time by **~60%**.
+- Analyzed drivers of order success using **Linear Regression** and **Random Forests**, identifying key operational variables impacting failures.
+- Built Python automation for **price optimization** and backend price updates, reducing manual effort and improving pricing turnaround time.
 
