@@ -1,6 +1,6 @@
 ---
 title: "Summer Intern"
-description: "JSW | India"
+description: "JSW | India — Summer intern automating ERP→CRM data pipelines and price optimization with Python, SQL, and ML (order success 60%→95%)."
 dateString: "May 2022 - August 2022"
 draft: false
 tags: ["Python", "Data Engineering", "Automation", "SQL", "Statistical Analysis", "Git"]

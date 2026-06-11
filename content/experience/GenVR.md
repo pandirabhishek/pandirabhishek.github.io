@@ -1,6 +1,6 @@
 ---
 title: "Founding Member"
-description: "GenVR Labs | India"
+description: "GenVR Labs | India — Founding member work on video summarization, vector-based retrieval, and LLM fine-tuning for conversational AI products."
 dateString: "February 2023 - January 2024"
 draft: false
 tags: ["Machine Learning", "Deep Learning", "NLP", "LLM", "Python", "GPT-3.5", "Data Engineering", "Docker", "APIs"]

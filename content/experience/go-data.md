@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Researcher"
-description: "Go Data Insights | India"
+description: "Go Data Insights | India — Geospatial greenery scoring from OpenStreetMap data and NASA MODIS fire-risk forecasting for region-level risk monitoring."
 dateString: "June 2021 - August 2021"
 draft: false
 tags: ["Machine Learning", "Data Analysis", "Environmental Science", "Python", "API Integration"]

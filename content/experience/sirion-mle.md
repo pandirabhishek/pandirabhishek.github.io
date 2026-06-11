@@ -1,8 +1,8 @@
 ---
 title: "Machine Learning Engineer | Sirion"
+description: "Sirion Labs | India — Contract AI platform engineering: async ml-context-service, RAG retrieval research, Auto-Eval platform, and inference optimization for vectorizer and language-detection deployments."
 dateString: "September 2025 - Present"
 draft: false
-description: "Contract AI platform engineering — async ml-context-service, RAG retrieval research, ML evaluation infrastructure, and inference optimization for vectorizer and language-detection deployments."
 tags:
   - LLM
   - RAG

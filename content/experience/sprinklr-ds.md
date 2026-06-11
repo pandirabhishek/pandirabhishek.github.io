@@ -1,6 +1,6 @@
 ---
 title: "Data Scientist"
-description: "Sprinklr | India"
+description: "Sprinklr | India — LLM inference optimization, sentiment/moderation systems, fine-tuning (LoRA/QLoRA), and RAG-powered product features including dashboard summarization."
 dateString: "June 2023 - September 2025"
 draft: false
 tags: ["LLM", "NLP", "MLOps", "Statistical Analysis", "Machine Learning", "Deep Learning", "Backend Development", "OOP", "Data Structures", "Algorithms", "Docker", "Jenkins", "MongoDB", "GCP", "Kubernetes", "Kafka", "Python", "C++", "SQL", "HTML", "CSS", "Git", "Pandas", "NumPy", "Matplotlib", "Scikit-Learn", "TensorFlow", "PyTorch", "Bootstrap", "Power Automate", "AutoCAD", "Fusion 360", "Cloud Computing", "Data Visualization", "DevOps", "APIs", "Agile Methodologies"]

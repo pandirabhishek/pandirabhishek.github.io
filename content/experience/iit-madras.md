@@ -1,6 +1,6 @@
 ---
 title: "Research Associate"
-description: "IIT Roorkee | India"
+description: "IIT Roorkee | India — Agricultural robotics research: SLAM path planning, tomato/peduncle detection with YOLOv5 (73.1 mAP) under Prof. R. Balasubramanian."
 dateString: "March 2022 - December 2022"
 draft: false
 tags: ["Machine Learning", "Data Analysis", "Environmental Science", "Python", "APIs", "Statistical Analysis", "NumPy", "Pandas"]
