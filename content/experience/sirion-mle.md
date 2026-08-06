@@ -1,6 +1,6 @@
 ---
 title: "Machine Learning Engineer | Sirion"
-description: "Sirion Labs | India — Contract AI platform engineering: async ml-context-service, RAG retrieval research, Auto-Eval platform, and inference optimization for vectorizer and language-detection deployments."
+description: "Sirion Labs | India — Contract AI platform engineering: async ml-context-service, RAG retrieval research, Auto-Eval platform (incl. agentic eval), and inference optimization for vectorizer and language-detection deployments."
 dateString: "September 2025 - Present"
 draft: false
 tags:
@@ -37,7 +37,7 @@ tags:
 
 - Re-architected `ml-context-service` to **FastAPI + async I/O**, improving throughput and eliminating cross-event-loop runtime failures under load.
 - Built a **multi-tenant VectorStore proxy** routing by `client_id`, enabling transparent backends (Qdrant ↔ Amazon S3 Vectors) with **zero call-site changes**.
-- Shipped **Auto-Eval**, a spec-driven evaluation platform covering **12 ML pipelines**, with regression gates, dataset tooling, and a React + FastAPI UI.
+- Shipped **Auto-Eval**, a spec-driven evaluation platform covering **12 ML pipelines** plus **agentic eval** for multi-step agent workflows, with regression gates, dataset tooling, and a React + FastAPI UI.
 - Led production-aligned **RAG retrieval evaluation**, improving accuracy **~70% → 81%** on a 790-question golden dataset; identified retrieval as the dominant bottleneck and shipped targeted fixes.
 - Delivered retrieval/model optimization work (dense fine-tuning, chunking benchmarks, hybrid search) plus infra sizing studies for high-volume document ingestion.
 
@@ -60,20 +60,21 @@ Mapped Qdrant operations (`search`, `search_batch`, `scroll`, `put_points`, `del
 
 ---
 
-### Delivered Auto-Eval — Internal ML Evaluation Platform (12 Pipelines)
+### Delivered Auto-Eval — Internal ML Evaluation Platform (12 Pipelines + Agentic Eval)
 
-Built a **spec-driven ML evaluation platform** that automates API contract validation, quality scoring, and regression gating across **12 ML pipelines** spanning `ml-context-service` (predict, turbo, summarization) and `ml-service-ns` (language detection, classification, extraction, translation, and related Pulsar flows).
+Built a **spec-driven ML evaluation platform** that automates API contract validation, quality scoring, and regression gating across **12 ML pipelines** spanning `ml-context-service` (predict, turbo, summarization) and `ml-service-ns` (language detection, classification, extraction, translation, and related Pulsar flows). Extended the platform with **agentic eval** to benchmark multi-step LLM agent workflows — tool-call correctness, trajectory scoring, and step-level regression gates.
 
 **Key components:**
 - Python evaluation engine with HTTP and Pulsar transport, 30+ metrics, and configurable regression gates
 - Declarative **YAML** specs per flow (contracts, metrics, Excel column mapping, default prompt placeholders)
+- **Agentic eval** module: spec-driven scenarios for agent trajectories, tool-use validation, and multi-turn workflow scoring
 - **React + FastAPI** web UI: dataset upload, live run progress, case inspector, run history, compare, report management
 - **G-Eval** LLM-as-judge integration (correctness, relevance, coherence, groundedness)
 - Chained HTTP pipelines (query → predict) and async Pulsar evals with per-run callback topics
 - Docker packaging for one-command team deployment; CLI + REST API for CI/CD
 - **42 automated tests** covering config, ingest, API, and pipeline behavior
 
-**Impact:** Reduced bespoke test effort, enabled self-service QA on 790+ case golden datasets, and improved pre-release confidence across contract AI and NS ML services.
+**Impact:** Reduced bespoke test effort, enabled self-service QA on 790+ case golden datasets, and improved pre-release confidence across contract AI, NS ML services, and agentic workflows.
 
 ---
 
@@ -151,7 +152,7 @@ Hardened production contract-AI services through security, reliability, and feat
 | **Vector & search** | Qdrant, Amazon S3 Vectors, hybrid dense + BM25 + RRF |
 | **Messaging & infra** | Apache Pulsar, Docker, boto3, Elastic APM |
 | **LLM integration** | LiteLLM, vLLM, WatsonX, G-Eval LLM-as-judge |
-| **Evaluation** | YAML-driven test specs, React UI, Excel golden datasets |
+| **Evaluation** | YAML-driven test specs, agentic eval, React UI, Excel golden datasets |
 
 ---
 
@@ -161,7 +162,7 @@ Hardened production contract-AI services through security, reliability, and feat
 - **Scalability:** Async re-architecture + S3 Vectors enable higher throughput and flexible per-client storage
 - **Quality:** Dense retrieval recall 0.38 → 0.91; Graph RAG accuracy 70% → 81% on TTD golden set
 - **Efficiency:** ~50% smaller embeddings; vectorizer benchmarks for 100K docs/day capacity planning
-- **Release confidence:** Auto-Eval platform covering 12 ML pipelines with regression gates and self-service UI
+- **Release confidence:** Auto-Eval platform covering 12 ML pipelines + agentic eval with regression gates and self-service UI
 - **Research → production:** Chunking, table retrieval, and LID benchmarks translated into actionable RAG and infra decisions
 
 ---

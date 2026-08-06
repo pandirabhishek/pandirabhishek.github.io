@@ -2,7 +2,7 @@ baseURL: "https://pandirabhishek.github.io/"
 languageCode: en-us
 title: Abhishek Pandir
 theme: PaperMod
-mainsections : ['posts', 'projects']
+mainsections : ['posts', 'projects', 'publications']
 menu:
   main:
     - identifier: Posts
@@ -13,6 +13,10 @@ menu:
       name: Projects
       url: /projects
       weight: 30
+    - identifier: publications
+      name: Publications
+      url: /publications
+      weight: 35
     - identifier: experience
       name: Experience
       url: /experience
