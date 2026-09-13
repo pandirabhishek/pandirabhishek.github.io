@@ -46,15 +46,11 @@ params:
   homeInfoParams:
     Title: I build benchmark datasets and observability for AI agents.
     Content: |
-      I’m an ML Research Engineer focused on **benchmarking datasets for agentic evaluation, extraction pipelines, and reliable RAG systems**.
+      I’m an ML Research Engineer building benchmark datasets and observability systems for agentic evaluation, extraction pipelines, and reliable RAG.
 
-      At [Sirion](/experience/sirion-mle/), I work with the Legal Engineering team to build benchmarking datasets for legal AI agents and extraction ML pipelines. I built [Auto-Eval](/projects/agentic-eval-platform/), with streamlined observability across pipeline stages, trajectory and tool-use scoring, LLM-as-judge evaluation, regression gates, and structured failure analysis.
+      At [Sirion](/experience/sirion-mle/), I build legal-AI golden datasets and [Auto-Eval](/projects/agentic-eval-platform/) with end-to-end pipeline observability, trajectory/tool scoring, LLM-as-judge evaluation, regression gates, and failure analysis. Impact: 6.5k-question dataset, dense retrieval recall **0.38 → 0.91**, and dense/sparse embedding models.
 
-      Previously at [Sprinklr](/experience/sprinklr-ds/), I fine-tuned LLaMA, Phi, and Mistral models with LoRA/QLoRA and SFT, built sentiment and moderation systems, and shipped RAG-powered dashboard summarization. I also optimized LLM inference with quantization, pruning, efficient decoding, and prompt compression.
-
-      **Selected impact: at Sirion ** 6.5k legal golden dataset · dense retrieval recall **0.38 → 0.91** · trained dense and sparse embedding models · **60–70%** lower inference memory and **~2×** faster inference at Sprinklr.
-
-      I’m interested in Agentic AI, benchmark design, synthetic/golden datasets, extraction quality, RAG reliability, embedding models, and AI observability.
+      Previously at [Sprinklr](/experience/sprinklr-ds/), I fine-tuned LLaMA, Phi, and Mistral models and shipped sentiment, moderation, and RAG summarization systems—reducing inference memory **60–70%** and doubling speed.
   # Home Page
   profileMode:
     enabled: false
