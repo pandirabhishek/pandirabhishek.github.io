@@ -44,13 +44,20 @@ params:
   # for enchanced SEO
   env: production
   homeInfoParams:
-    Title: Hi there..  its me Abhishek Pandir
-    Content: A seasoned ML engineer with expertise in building end-to-end ML solutions—from the research phase through to deployment—plus experience developing websites and mobile apps. I’m currently working with Large Language Models (LLMs), pushing the boundaries of what AI can achieve. With a BTech from IIT Madras, I have a solid foundation in engineering principles and a talent for transforming complex ideas into impactful solutions.
+    Title: I build benchmark datasets and observability for AI agents.
+    Content: |
+      I’m an ML Research Engineer focused on **benchmarking datasets for agentic evaluation, extraction pipelines, and reliable RAG systems**.
+
+      At [Sirion Foundry](/experience/sirion-mle/), I work with the Legal Engineering team to build golden and benchmark datasets for legal AI agents and extraction ML pipelines. I built [Auto-Eval](/projects/agentic-eval-platform/), with streamlined observability across pipeline stages, trajectory and tool-use scoring, LLM-as-judge evaluation, regression gates, and structured failure analysis.
+
+      **Selected impact:** 790-question legal golden dataset · RAG accuracy **69.8% → 81.1%** · dense retrieval recall **0.38 → 0.91** · trained dense and sparse embedding models · **60–70%** inference-memory reduction at Sprinklr.
+
+      I’m interested in Agentic AI, benchmark design, synthetic/golden datasets, extraction quality, RAG reliability, embedding models, and AI observability.
   # Home Page
   profileMode:
     enabled: false
     title: "Abhishek Pandir"
-    subtitle: I’m a seasoned ML engineer with expertise in building end-to-end ML solutions—from the research phase through to deployment—plus experience developing websites and mobile apps. I’m currently working with Large Language Models (LLMs), pushing the boundaries of what AI can achieve. With a BTech from IIT Madras, I have a solid foundation in engineering principles and a talent for transforming complex ideas into impactful solutions.
+    subtitle: I’m an ML Research Engineer building benchmark datasets, agentic evaluations, extraction-pipeline observability, and reliable RAG systems. At Sirion Foundry, I also research dense and sparse embedding models.
     imageUrl: "home/casual.jpeg"
     imageWidth: 200
     imageHeight: 220
