@@ -36,6 +36,7 @@ menu:
 
 params:
   # theme
+  defaultTheme: auto
   showToc: true
   TocOpen: false
   ShowBreadCrumbs: true
@@ -43,27 +44,22 @@ params:
   hideMeta: false
   # for enchanced SEO
   env: production
-  homeInfoParams:
-    Title: I build benchmark datasets and observability for AI agents.
-    Content: |
-      I’m an ML Research Engineer building benchmark datasets and observability systems for agentic evaluation, extraction pipelines, and reliable RAG.
-
-      At [Sirion](/experience/sirion-mle/), I build legal-AI golden datasets and [Auto-Eval](/projects/agentic-eval-platform/) with end-to-end pipeline observability, trajectory/tool scoring, LLM-as-judge evaluation, regression gates, and failure analysis. Impact: 6.5k-question dataset, dense retrieval recall **0.38 → 0.91**, and dense/sparse embedding models.
-
-      Previously at [Sprinklr](/experience/sprinklr-ds/), I fine-tuned LLaMA, Phi, and Mistral models and shipped sentiment, moderation, and RAG summarization systems—reducing inference memory **60–70%** and doubling speed.
-  # Home Page
   profileMode:
-    enabled: false
+    enabled: true
     title: "Abhishek Pandir"
-    subtitle: I’m an ML Research Engineer building benchmark datasets, agentic evaluations, extraction-pipeline observability, and reliable RAG systems. At Sirion Foundry, I also research dense and sparse embedding models.
-    imageUrl: "home/casual.jpeg"
-    imageWidth: 200
-    imageHeight: 220
+    subtitle: |
+      ML Research Engineer — benchmark datasets, agentic evaluation, and reliable RAG.
+
+      Building legal-AI golden datasets and [Auto-Eval](/projects/agentic-eval-platform/) at [Sirion](/experience/sirion-mle/). Dense retrieval recall **0.38 → 0.91** on a 6.5k-question dataset.
     buttons:
       - name: Resume
-        url: ""
-      - name: Blog
-        url: /blog
+        url: /resume.pdf
+      - name: Posts
+        url: /posts
+      - name: Projects
+        url: /projects
+      - name: Experience
+        url: /experience
 
   # List View
   hideDescriptionInList: false

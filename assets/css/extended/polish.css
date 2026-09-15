@@ -1,0 +1,147 @@
+/* Profile home — compact hero, content below */
+.main .profile {
+    min-height: auto;
+    padding: 1.5rem 0 0.5rem;
+}
+
+.profile .profile_inner h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 0.25rem;
+}
+
+.profile .profile_inner > span {
+    max-width: 36rem;
+    line-height: 1.65;
+    color: var(--secondary);
+    font-size: 1.05rem;
+}
+
+.profile .profile_inner .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: -0.03em;
+    color: var(--primary);
+    background: var(--tertiary);
+    border: 2px solid var(--border);
+}
+
+.buttons {
+    max-width: 520px;
+    margin-top: 0.25rem;
+}
+
+.button {
+    background: var(--entry);
+    border: 1px solid var(--border);
+}
+
+.button:hover {
+    background: var(--code-bg);
+}
+
+/* Home page sections */
+.home-content {
+    margin-top: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--border);
+}
+
+.home-content h2 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--secondary);
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.home-content h2:first-child {
+    margin-top: 0.5rem;
+}
+
+.home-content h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 1.25rem 0 0.35rem;
+    line-height: 1.4;
+}
+
+.home-content h3 a {
+    box-shadow: none;
+}
+
+.home-content h3 + p {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.home-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.75rem;
+}
+
+.home-content li {
+    margin: 0.85rem 0;
+    padding-left: 0;
+    line-height: 1.55;
+}
+
+.home-content li p {
+    margin: 0.25rem 0 0;
+    color: var(--secondary);
+    font-size: 0.92rem;
+}
+
+.home-content > p:last-of-type a,
+.home-content > p a {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Typography & readability */
+.post-content,
+.entry-content {
+    line-height: 1.7;
+}
+
+.post-entry {
+    transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.post-entry:hover {
+    border-color: var(--tertiary);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.dark .post-entry:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.post-entry:active {
+    transform: none;
+}
+
+/* Nav */
+#menu a {
+    font-size: 0.95rem;
+}
+
+.logo a {
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+}

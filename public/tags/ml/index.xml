@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>ML on Abhishek Pandir</title>
-    <link>http://localhost:1313/tags/ml/</link>
-    <description>Recent content in ML on Abhishek Pandir</description>
-    <generator>Hugo -- 0.136.5</generator>
-    <language>en-us</language>
-    <atom:link href="http://localhost:1313/tags/ml/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Principal Component Analysis - Visualized</title>
-      <link>http://localhost:1313/posts/pca-visualized/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/pca-visualized/</guid>
-      <description>Data compression using Principal Component Analysis (PCA)</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>ML on Abhishek Pandir</title><link>https://pandirabhishek.github.io/tags/ml/</link><description>Recent content in ML on Abhishek Pandir</description><generator>Hugo -- 0.134.2</generator><language>en-us</language><atom:link href="https://pandirabhishek.github.io/tags/ml/index.xml" rel="self" type="application/rss+xml"/><item><title>Faster and Cheaper LLMs: Prompt Compression</title><link>https://pandirabhishek.github.io/posts/prompt-compression/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pandirabhishek.github.io/posts/prompt-compression/</guid><description>A look into the the Prompt compression methods for efficient llms usage</description></item><item><title>Faster and Cheaper LLMs: Quantization of LLMS</title><link>https://pandirabhishek.github.io/posts/llmquantization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pandirabhishek.github.io/posts/llmquantization/</guid><description>Model Compression using quantization</description></item><item><title>Impact of Tokenization on the Performance of LLMs for Indian Languages</title><link>https://pandirabhishek.github.io/posts/tokenization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pandirabhishek.github.io/posts/tokenization/</guid><description>A look into the the tokenzation methods on low resource indian languages</description></item><item><title>Part 1 Granite 3.0: The Data Powering Granite 3.0</title><link>https://pandirabhishek.github.io/posts/grenite-data/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pandirabhishek.github.io/posts/grenite-data/</guid><description>Unpacking Granite 3.0’s Data Strategy: The Power of Curated, Public, and Synthetic Datasets in AI Model Development</description></item><item><title>Principal Component Analysis - Visualized</title><link>https://pandirabhishek.github.io/posts/pca-visualized/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://pandirabhishek.github.io/posts/pca-visualized/</guid><description>Data compression using Principal Component Analysis (PCA)</description></item></channel></rss>
