@@ -16,8 +16,6 @@
 </a>
 {{- end }}
 
-{{- partial "extend_footer.html" . }}
-
 <script>
     let menu = document.getElementById('menu')
     if (menu) {
@@ -83,6 +81,10 @@
 <script>
 
     document.querySelectorAll('pre > code').forEach((codeblock) => {
+        if (codeblock.classList.contains('language-mermaid')) {
+            return;
+        }
+
         const container = codeblock.parentNode.parentNode;
 
         const copybutton = document.createElement('button');

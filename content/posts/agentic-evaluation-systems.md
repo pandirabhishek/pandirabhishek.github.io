@@ -297,9 +297,9 @@ That is why benchmark design is product work as much as ML work.
 Four papers that shaped how I think about this stack:
 
 1. **[Zheng et al., 2023 — *Judging LLM-as-a-Judge* (MT-Bench)](https://arxiv.org/abs/2306.05685)** — Foundational work on using LLMs to evaluate open-ended outputs. Useful baseline for why a jury helps, and why it still needs guardrails.
-2. **[Norman et al., 2026 — *Reliability without Validity](https://arxiv.org/abs/2606.19544)*** — Large-scale study showing high judge agreement can coexist with systematic bias. Motivates evidence tiers, split-jury review, and calibrating against human labels (e.g. Cohen's κ) before gating releases on pass rate.
-3. **[PAJAMA, 2025 — *Programs are the Future of Evaluation](https://arxiv.org/abs/2506.10403)*** — Argues for synthesizing auditable programmatic checkers alongside LLM judges. Aligns with deterministic pre-checks and structural alignment before the jury runs.
-4. **[BenchJack, 2026 — *Auditing AI Agent Benchmarks](https://arxiv.org/html/2605.12673)*** — Red-teams evaluation harnesses, not just agents. Supports treating the benchmark itself as software that can be gamed or drift.
+2. **[Norman et al., 2026 — Reliability without Validity](https://arxiv.org/abs/2606.19544)** — Large-scale study showing high judge agreement can coexist with systematic bias. Motivates evidence tiers, split-jury review, and calibrating against human labels (e.g. Cohen's κ) before gating releases on pass rate.
+3. **[PAJAMA, 2025 — Programs are the Future of Evaluation](https://arxiv.org/abs/2506.10403)** — Argues for synthesizing auditable programmatic checkers alongside LLM judges. Aligns with deterministic pre-checks and structural alignment before the jury runs.
+4. **[BenchJack, 2026 — Auditing AI Agent Benchmarks](https://arxiv.org/html/2605.12673)** — Red-teams evaluation harnesses, not just agents. Supports treating the benchmark itself as software that can be gamed or drift.
 
 ## Closing Thought
 

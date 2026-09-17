@@ -145,3 +145,16 @@
     font-weight: 600;
     letter-spacing: -0.01em;
 }
+
+/* Mermaid diagrams */
+.mermaid {
+    margin: 1.5rem auto;
+    max-width: 100%;
+    overflow-x: auto;
+    text-align: center;
+}
+
+.post-content .mermaid svg {
+    max-width: 100%;
+    height: auto;
+}
