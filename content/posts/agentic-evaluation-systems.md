@@ -1,8 +1,12 @@
 ---
 
-## title: "Beyond Accuracy: Evaluating Agent Behavior in Production AI Systems" description: "A practical outline for evaluating agents across final answers, tool use, HITL decisions, workflow paths, and failure buckets." dateString: Sep 2026 lastmod: 2026-09-17
-
-## tags: ["Agentic AI", "Evaluation", "LLM-as-Judge", "Benchmarking", "RAG", "AI Observability"] weight: 108 showToc: true
+title: "Beyond Accuracy: Evaluating Agent Behavior in Production AI Systems" 
+description: "A practical outline for evaluating agents across final answers, tool use, HITL decisions, workflow paths, and failure buckets." 
+dateString: Sep 2026 
+lastmod: 2026-09-17
+tags: ["Agentic AI", "Evaluation", "LLM-as-Judge", "Benchmarking", "RAG", "AI Observability"] 
+weight: 108   
+showToc: true
 
 I used to think evaluation was mostly about one question: did the model get the right answer?
 
